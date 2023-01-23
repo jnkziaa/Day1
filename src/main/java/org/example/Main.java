@@ -4,6 +4,23 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Area
+        Area area = new Area();
+        area.setDims(5, 10);
+        System.out.println(area.getArea());
+        //student
+        Student s = new Student();
+        s.name = "John";
+        s.roll_no = 2;
+        System.out.println("Name is "+s.name+" and roll number is "+s.roll_no);
+        //triangle
+        Triangle triangle = new Triangle();
+        triangle.a = 5;
+        triangle.b = 7;
+        triangle.c = 9;
+        System.out.println(triangle.getArea());
+        System.out.println(triangle.getPerimeter());
         arrayListSamples();
         hashSetSamples();
         hashMapSamples();
